@@ -1,46 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@200;300;400&display=swap');
+
 body {
-  color: black;
-  width: 100vw;
-  height: 100vh;
+  font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
-h1 {
-  color: rgba(255, 255, 255, 0.601);
-  font-family: monospace;
-}
-
-.one {
-  border: 1px solid gray;
-  background-color: blue;
-  width: 100%;
-  height: 100%;
+.header{ 
   display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.menu {
+  font-size: 20px;
+  display: flex;
+  font-weight: 200;
+
+}
+
+.menu1{
+  color: red;
+}
+
+.box1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.one{
+  border: 1px;
+  background-color: white;
+  width: 50%;
+  height: 960px;
+  padding: 50px;
+  display:flex;
   justify-content: center;
+  align-items: center;
+  font-size: 80px;
+
 }
 
 .two {
-  border: 1px solid gray;
-  background-color: cornsilk;
-  height: 100%;
-  width: 75%;
+  border: 1px;
+  background-color: rgb(116, 116, 116);
+  width: 50%;
+  height: 960px;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+
 }
 
 .three {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-weight: 400;
 }
 
-.card {
-  width: 200px;
-  height: 200px;
-  background: black;
-  margin: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  transition: ;
+.four {
+  font-weight: 200;
 }
 
-.card:hover {
-  background-color: brown;
-  opacity: 0.2;
+.five {
+  font-weight: 200;
 }
