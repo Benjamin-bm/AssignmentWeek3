@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Project website title</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+    <h1 class="title1"> Project title here </h1>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+        </style>
+</head>
+    
+<body>
+    <div class="container1">
+        <div class="row">
+            <div class="column"> 
+                <img src="photos/banner/banner6.png" alt="photo1" style="height:100%" >
+            </div>    
+            <div class="flip-card1">
+                <div class="flip-card-inner1">
+                  <div class="flip-card-front1">
+                    <img src="photos/test/yes1.png" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back1">
+                    <h1></h1>
+                    <p> But did you know that a cold november morning in 1973 he lefts his wife and kid to go and fight in the spanish civil war</p>
+                  </div>
+                </div>
+              </div>
+          <div class="column"> 
+            <div class="flip-card2">
+              <div class="flip-card-inner1">
+                <div class="flip-card-front1">
+                  <img src="photos/banner/test1 lag5.png" alt="Avatar" style="width:500px;height:461px;">
+                </div>
+                <div class="flip-card-back1">
+                  <p> viben skriger
+                    en cirkel sort
+                    skriger en kurve hvid
+                    i luften —
+                    saltengen drejer sig
+                    grøn-graa vaad
+                    med et lukket æg
+                    i midten —
+                    
+                    havet glider rødmende
+                    ind i solens ild,
+                    aften aander salt
+                    mod morgens vind —
+                    en maage forsvinder i sløret sus,
+                    fiskeren vaagner til dag — </p>
+            </div>
+          </div>
+          <div class="poem2"> 
+            <h1>Digt_fra_"Det_nøgne_Menneske"</h1> 
+            <button onclick="typeWriter()">Til mine forældre</button>
+            <p id="demo"></p>
+            <script>
+            var i = 0;
+            var txt = 'jeg blev ikke det, i ventede — jeg blev alt det, i havde frygtet — i lod mig vokse op næret ved jeres afsavn. i opdrog mig med skjulte taarer — opdrog mig til at leve jeres liv — fortsætte det — skal jeg sige: saadan levede i; i gjorde ret — altsaa er det godt at leve saadan. skal jeg? eller skal jeg dræbe haabet i jer? fortælle jer, at jeg ikke blev som i — at min verden er en anden end jeres, min glæde, min smerte en anden end jeres — vil i tro paa min tak til jer? paa min tak til livet? eller vil i sige: han fik alt, han tog alt af os, og giver os intet tilbage, andet end sorg og skuffelse. jeg ved, i har ret, naar i siger det. jeg tror, jeg har ret, naar jeg gaar til mit eget land. men jeg gaar tøvende — jeg gaar langsomt og tungt — men jeg tror, jeg skal gaa.';
+            var speed = 75;
+            function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+          </div>
+    </div>
+        <P> End text here </P>
+    </div>
+    
+</body>
+
+<script src="main.js"></script>
+
+</html> 
+
