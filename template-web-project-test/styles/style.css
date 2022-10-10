@@ -161,3 +161,19 @@ margin: 10px;
     opacity: 100%;
     transition: opacity 5s;
   }
+
+.textbox1 {
+  margin: 20px;
+}
+  .alignleft {
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+  }
+
+  .alignright {
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+  }
+
