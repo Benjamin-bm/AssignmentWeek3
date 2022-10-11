@@ -2,13 +2,16 @@
 .container {
   display: flex;
   flex-direction:column;
+  justify-content:space-between;
   margin: 20px;
+
 }
 
 .child1 {
   width: 800px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 20px;
 }
 
@@ -25,13 +28,11 @@
 }
 
   .alignleft {
-    float: left;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
   }
 
   .alignright {
-    float: right;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 25px;
   }
