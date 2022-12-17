@@ -65,10 +65,7 @@
     height: 1124px;
   }
 
-.keyboard1 {
-  position: absolute;
-  left: 9000px;
-  top: 11000px;
-  width: 1374px; 
-  height: 1124px;
-}
+  .title {
+    font-size: 50px;
+
+  }
