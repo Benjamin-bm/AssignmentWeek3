@@ -1,0 +1,261 @@
+
+.button4 {
+    position: absolute;
+    top: 720px;
+    left: 200px; 
+}
+
+.images1 {
+    opacity: 0.0;
+  }
+  
+.images1:hover {
+    opacity: 1.0;
+  }
+
+.img1 {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+
+.img2 {
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+  }
+
+.images2 {
+    opacity: 0.0;
+  }
+  
+.images2:hover {
+    opacity: 1.0;
+  }
+
+.img3 {
+    position: absolute;
+    top: 300px;
+    left: 1650px;
+  }
+
+  .images3 {
+    opacity: 0.0;
+  }
+  
+.images3:hover {
+    opacity: 1.0;
+  }
+
+.img5 {
+    position: absolute;
+    top: 300px;
+    left: 2000px;
+  }
+
+  .images5 {
+    opacity: 0.0;
+  }
+  
+.images5:hover {
+    opacity: 1.0;
+  }
+
+.img6 {
+    position: absolute;
+    top: 675px;
+    left: 2000px;
+  }
+
+.images6 {
+    opacity: 0.0;
+  }
+  
+.images6:hover {
+    opacity: 1.0;
+  }
+
+.img7 {
+    position: absolute;
+    top: 1600px;
+    left: 1300px;
+  }
+
+.images7 {
+    opacity: 0.0;
+  }
+  
+.images7:hover {
+    opacity: 1.0;
+  }
+
+.img8 {
+    position: absolute;
+    top: 1550px;
+    left: 930px;
+  }
+
+.images8 {
+    opacity: 0.0;
+  }
+  
+.images8:hover {
+    opacity: 1.0;
+  }
+
+  .img9 {
+    position: absolute;
+    top: 3500px;
+    left: 720px;
+  }
+
+.images9 {
+    opacity: 0.0;
+  }
+  
+.images9:hover {
+    opacity: 1.0;
+  }
+
+  .img11 {
+    position: absolute;
+    top: 3500px;
+    left: 40px;
+  }
+
+.images11 {
+    opacity: 0.0;
+  }
+  
+.images11:hover {
+    opacity: 1.0;
+  }
+
+  .img12 {
+    position: absolute;
+    top: 3700px;
+    left: 4100px;
+  }
+
+.images12 {
+    opacity: 0.0;
+  }
+  
+.images12:hover {
+    opacity: 1.0;
+  }
+
+  .img13 {
+    position: absolute;
+    top: 1950px;
+    left: 2650px;
+  }
+
+.images13 {
+    opacity: 0.0;
+  }
+  
+.images13:hover {
+    opacity: 1.0;
+  }
+
+  .img17 {
+    position: absolute;
+    top: 650px;
+    left: 400px;
+  }
+
+.images17 {
+    opacity: 0.0;
+  }
+  
+.images17:hover {
+    opacity: 1.0;
+  }
+
+.img14 {
+    position: absolute;
+    top: 3000px;
+    left: 300px;  
+}
+
+.photo1 {
+    position: absolute;
+    top: 220px;
+    left: 500px; 
+}
+
+.button2 {
+    position: absolute;
+    top: 300px;
+    left: 300px; 
+}
+
+.com1 {
+    position: absolute;
+    top: 420px;
+    left: 30px;
+  }
+
+.computer1 {
+    opacity: 0.0;
+  }
+  
+.computer1:hover {
+    opacity: 1.0;
+  }
+
+  .button3 {
+    position: absolute;
+    top: 2000px;
+    left: 100px; 
+}
+
+.computer6 {
+    position: absolute;
+    top: 1020px;
+    right: 180px;
+}
+
+.flip-card {
+    position: absolute;
+    top: 640px;
+    left: 960px;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #d1d4d6;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+  }
